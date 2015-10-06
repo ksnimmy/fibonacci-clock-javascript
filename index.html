@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Captain Anonymous</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+<div class="displayPanel">
+<table class="container">
+  <tr>
+    <td colspan="2" rowspan="2" class="two"></td>
+    <td class="one"></td>
+    <td colspan="5" rowspan="5" class="five"></td>
+  </tr>
+  <tr>
+    <td class="one"></td>
+  </tr>
+  <tr>
+    <td colspan="3" rowspan="3" class="three"></td>
+  </tr>
+</table>
+</div>
+<div class="actionPanel">
+  <input id="hourInput" type="number" min="1" max="12" step="1" placeholder="hour" onkeypress="onKeyDown(event)" />
+  <input id="minuteInput" type="number" min="0" max="55" step="5" placeholder="minute" onkeypress="onKeyDown(event)" />
+  <input id="buttonDisplay" type="button" Value="Display" onclick="generateTime()" />
+</div>
+</div>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

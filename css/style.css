@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid black; 
+  width: 25%;
+  height: 200px;
+  margin: 10px;
+}
+.container td {
+  border: 1px solid black; 
+}
+#wrapper{
+  position: relative;
+}
+.displayPanel{
+  position: relative;
+}
+.actionPanel{
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+.one{
+  width: 12.5%;
+}
+.two{
+  width: 25%;
+}
+input[type='button']{
+  width: 75px;
+  height: 36px;
+  font-size: 15px;
+  text-align: center;
+}
+input[type='number']{
+  width: 40px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
