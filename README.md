@@ -1,4 +1,4 @@
-# Fibonacci-Clock
+# Fibonacci Clock
 Fibonacci series clock
 
 The Fibonacci sequence is the sequence beginning 1, 1 and where each number is the sum of the previous two. Its first five digits are:
